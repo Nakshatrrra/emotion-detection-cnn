@@ -1,4 +1,3 @@
-
 import numpy as np
 from keras.models import model_from_json
 import matplotlib.pyplot as plt
@@ -48,7 +47,3 @@ plt.show()
 # Classification report
 print("-----------------------------------------------------------------")
 print(classification_report(test_generator.classes, predictions.argmax(axis=1)))
-
-
-
-

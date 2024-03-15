@@ -1,5 +1,10 @@
 # Emotion_detection_with_CNN
 
+### Create Virtual environment
+
+-  python -m venv venv
+- .\venv\Scripts\activate
+- deactivate
 
 ### Packages need to be installed
 - pip install numpy
