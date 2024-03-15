@@ -16,11 +16,12 @@ emotion_model.load_weights("model/emotion_model.h5")
 print("Loaded model from disk")
 
 # start the webcam feed
-#cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
 # pass here your video path
 # you may download one from here : https://www.pexels.com/video/three-girls-laughing-5273028/
-cap = cv2.VideoCapture("C:\\JustDoIt\\ML\\Sample_videos\\emotion_sample6.mp4")
+# cap = cv2.VideoCapture("C:\\JustDoIt\\ML\\Sample_videos\\emotion_sample6.mp4")
+# cap = cv2.VideoCapture("C:\\Users\\naksh\\Documents\\ML opencv projects\\Emotion_detection_with_CNN\\Emotion_detection_with_CNN-main\\production_id_4628795 (1080p).mp4")
 
 while True:
     # Find haar cascade to draw bounding box around face
